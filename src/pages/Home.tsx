@@ -88,7 +88,7 @@ const Home = () => {
               <Clock className="h-12 w-12 text-primary mb-4" />
               <h3 className="text-xl font-heading font-semibold mb-2">Forecasting</h3>
               <p className="text-gray-600">
-                Predict future sales performance with advanced time series forecasting algorithms.
+                Predict future sales performance with advanced time series forecasting algorithms for the next 15 days.
               </p>
             </div>
             
@@ -111,77 +111,105 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Business Benefits Section */}
+      {/* Objectives Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              How It Benefits Your Business
+              Project Objectives
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Transform your decision-making process with data-driven insights
+              Transform everyday data into valuable, actionable insights
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="mb-8">
-                <div className="flex items-start mb-4">
-                  <div className="flex-shrink-0 mt-1">
-                    <BarChart2 className="h-6 w-6 text-primary" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-6">
+              <div className="flex p-4 bg-gray-50 rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-semibold">
+                    1
                   </div>
-                  <div className="ml-4">
-                    <h3 className="text-xl font-heading font-semibold mb-2">Increased Sales Performance</h3>
-                    <p className="text-gray-600">
-                      Identify high-performing products and services to optimize your sales strategy and boost revenue.
-                    </p>
-                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Dashboard Creation</h3>
+                  <p className="text-gray-600">
+                    Design a user-friendly dashboard with interactive visualizations that present KPIs, allowing stakeholders to explore sales data across multiple levels of detail.
+                  </p>
                 </div>
               </div>
               
-              <div className="mb-8">
-                <div className="flex items-start mb-4">
-                  <div className="flex-shrink-0 mt-1">
-                    <Zap className="h-6 w-6 text-primary" />
+              <div className="flex p-4 bg-gray-50 rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-semibold">
+                    2
                   </div>
-                  <div className="ml-4">
-                    <h3 className="text-xl font-heading font-semibold mb-2">Faster Decision Making</h3>
-                    <p className="text-gray-600">
-                      Access real-time insights to make quick, informed decisions without delay.
-                    </p>
-                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Data-Driven Insights</h3>
+                  <p className="text-gray-600">
+                    Analyze historical sales data to uncover patterns and trends, offering insights into the effectiveness of sales strategies and identifying growth opportunities.
+                  </p>
                 </div>
               </div>
               
-              <div className="mb-8">
-                <div className="flex items-start mb-4">
-                  <div className="flex-shrink-0 mt-1">
-                    <TrendingUp className="h-6 w-6 text-primary" />
+              <div className="flex p-4 bg-gray-50 rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-semibold">
+                    3
                   </div>
-                  <div className="ml-4">
-                    <h3 className="text-xl font-heading font-semibold mb-2">Strategic Planning</h3>
-                    <p className="text-gray-600">
-                      Use historical data and forecasts to develop more effective long-term business strategies.
-                    </p>
-                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Sales Forecasting</h3>
+                  <p className="text-gray-600">
+                    Utilize time series analysis on past sales data to forecast the next 15 days, helping anticipate demand and inventory needs.
+                  </p>
                 </div>
               </div>
             </div>
             
-            <div className="bg-gray-100 p-8 rounded-lg border border-gray-200">
-              <div className="bg-white p-6 rounded-lg shadow-sm mb-6">
-                <div className="h-32 bg-blue-50 rounded-md flex items-center justify-center mb-4">
-                  <BarChart className="text-primary h-12 w-12 opacity-50" />
+            <div className="space-y-6">
+              <div className="flex p-4 bg-gray-50 rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-semibold">
+                    4
+                  </div>
                 </div>
-                <div className="space-y-2">
-                  <div className="h-4 bg-gray-200 rounded-full w-3/4"></div>
-                  <div className="h-4 bg-gray-200 rounded-full w-1/2"></div>
-                  <div className="h-4 bg-gray-200 rounded-full w-5/6"></div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Interactive Visualization</h3>
+                  <p className="text-gray-600">
+                    Develop an intuitive interface with filters and visual elements to help users navigate through various data insights seamlessly.
+                  </p>
                 </div>
               </div>
-              <p className="text-center text-gray-600 italic">
-                "Our interactive dashboards provide at-a-glance insights for busy decision makers."
-              </p>
+              
+              <div className="flex p-4 bg-gray-50 rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-semibold">
+                    5
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Actionable Recommendations</h3>
+                  <p className="text-gray-600">
+                    Provide specific, data-backed recommendations to inform decisions on promotions, inventory adjustments, and customer engagement strategies.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex p-4 bg-gray-50 rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-semibold">
+                    6
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Performance Monitoring</h3>
+                  <p className="text-gray-600">
+                    Track the accuracy of forecasts and effectiveness of recommended strategies to support ongoing optimization of sales and operational performance.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -195,7 +223,7 @@ const Home = () => {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl mb-8 text-white/90">
-              Join thousands of businesses that are making smarter decisions with our analytical platform.
+              Join iNsideCare and make data-driven decisions for your supermarket business.
             </p>
             <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
               <Link to="/signup">Start Free Trial</Link>

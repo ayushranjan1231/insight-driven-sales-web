@@ -116,14 +116,14 @@ const Dashboard = () => {
           <Card className="h-full">
             <CardHeader>
               <CardTitle>Sales Overview</CardTitle>
-              <CardDescription>Monthly revenue comparison</CardDescription>
+              <CardDescription>15-Day Sales Forecast</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="h-[350px] bg-blue-50 rounded-md flex items-center justify-center">
                 <div className="text-center">
                   <LineChart className="h-16 w-16 text-primary/50 mx-auto mb-4" />
                   <p className="text-sm text-gray-500">
-                    This is where your PowerBI or other analytics dashboard would be embedded.
+                    Sales forecast visualization for the next 15 days
                   </p>
                 </div>
               </div>
@@ -146,8 +146,8 @@ const Dashboard = () => {
                       <span className="text-purple-600 font-semibold">P1</span>
                     </div>
                     <div>
-                      <div className="font-medium">Analytics Suite Pro</div>
-                      <div className="text-sm text-gray-500">Software</div>
+                      <div className="font-medium">Fresh Produce</div>
+                      <div className="text-sm text-gray-500">Vegetables</div>
                     </div>
                   </div>
                   <div className="text-right">
@@ -165,8 +165,8 @@ const Dashboard = () => {
                       <span className="text-blue-600 font-semibold">P2</span>
                     </div>
                     <div>
-                      <div className="font-medium">Data Visualization Tool</div>
-                      <div className="text-sm text-gray-500">Software</div>
+                      <div className="font-medium">Dairy Products</div>
+                      <div className="text-sm text-gray-500">Milk & Cheese</div>
                     </div>
                   </div>
                   <div className="text-right">
@@ -184,8 +184,8 @@ const Dashboard = () => {
                       <span className="text-green-600 font-semibold">P3</span>
                     </div>
                     <div>
-                      <div className="font-medium">Business Insights Package</div>
-                      <div className="text-sm text-gray-500">Service</div>
+                      <div className="font-medium">Packaged Goods</div>
+                      <div className="text-sm text-gray-500">Cereals</div>
                     </div>
                   </div>
                   <div className="text-right">
@@ -229,9 +229,9 @@ const Dashboard = () => {
       <div className="mt-8">
         <Card>
           <CardHeader>
-            <CardTitle>Recent Activity</CardTitle>
+            <CardTitle>Recent Sales</CardTitle>
             <CardDescription>
-              Latest transactions and events
+              Latest transactions and inventory changes
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -241,10 +241,10 @@ const Dashboard = () => {
                   <thead className="bg-gray-50">
                     <tr>
                       <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                        Event
+                        Product
                       </th>
                       <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                        Customer
+                        Category
                       </th>
                       <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         Amount
@@ -264,11 +264,11 @@ const Dashboard = () => {
                           <div className="bg-green-100 h-8 w-8 rounded-full flex items-center justify-center mr-3">
                             <ShoppingCart className="h-4 w-4 text-green-600" />
                           </div>
-                          <span>New purchase</span>
+                          <span>Organic Vegetables</span>
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        Michael Johnson
+                        Produce
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         $1,250.00
@@ -286,23 +286,23 @@ const Dashboard = () => {
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="flex items-center">
                           <div className="bg-blue-100 h-8 w-8 rounded-full flex items-center justify-center mr-3">
-                            <Users className="h-4 w-4 text-blue-600" />
+                            <ShoppingCart className="h-4 w-4 text-blue-600" />
                           </div>
-                          <span>New signup</span>
+                          <span>Dairy Products</span>
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        Sarah Williams
+                        Refrigerated
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        -
+                        $850.00
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         Today, 9:15 AM
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <span className="px-2 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-800">
-                          New
+                          Processing
                         </span>
                       </td>
                     </tr>
@@ -312,14 +312,14 @@ const Dashboard = () => {
                           <div className="bg-orange-100 h-8 w-8 rounded-full flex items-center justify-center mr-3">
                             <ShoppingCart className="h-4 w-4 text-orange-600" />
                           </div>
-                          <span>Subscription renewal</span>
+                          <span>Packaged Goods</span>
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        Robert Brown
+                        Groceries
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        $99.00
+                        $3,200.00
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         Yesterday, 4:45 PM
